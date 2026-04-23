@@ -1,0 +1,89 @@
+body{
+    min-height: 100vh;
+    background-color: #14453F;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.cornav {
+
+    background-color: #0D2F2B;
+}
+
+.search {
+    font-size: small;
+    color: white;
+}
+.area{
+    background-color: #464545;
+
+}
+.oloco {
+    background-color: #FFFF;
+    width: 90%;
+    height: 2px;
+    margin: auto;
+} 
+
+.area::placeholder{
+    color: white;
+}
+.search::placeholder {
+    color: white;
+    
+  }
+.topnav{
+    width: 100%;
+    padding: 12px 24px;
+    
+    
+}
+.topnav-logo img {
+    width: 100px;
+    height: 40px;
+    object-fit: contain;
+}
+h1{
+    color: white;
+}
+.node{
+    background-color: #0D2F2B;
+}
+.painel{
+    background-color: #0D2F2B;
+}
+
+@media (max-width: 768px) {
+    .login-card {
+      padding: 24px 28px;
+    }
+    .topnav {
+      padding: 10px 16px;
+    }
+  }
+@media (max-width: 480px) {
+    .login-card {
+      padding: 20px 16px;
+    }
+    .info-user {
+      font-size: 1.2rem;
+    }
+    .btn {
+      width: 100%;
+      padding: 10px;
+    }
+    .topnav-links {
+      gap: 16px;
+    }
+    .topnav-links a {
+      font-size: 13px;
+    }
+  }
+@media (max-width: 360px) {
+    .topnav-links a span {
+      display: none;
+    }
+  }
+
