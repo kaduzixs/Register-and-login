@@ -16,11 +16,20 @@ body{
     font-size: small;
     color: white;
 }
+.input-box i{
+    left: 10px;
+    top: 50%;
+    transform: translateY(50%);
+    color: white;
+    font-size: 16px;
+    pointer-events: none;
+}
+
 .area{
     background-color: #464545;
 
 }
-.oloco {
+.hr {
     background-color: #FFFF;
     width: 90%;
     height: 2px;
@@ -45,6 +54,17 @@ body{
     height: 40px;
     object-fit: contain;
 }
+.btn-replacement{
+    padding: 10px ;
+    margin: 2px;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    
+    
+    
+}
 h1{
     color: white;
 }
@@ -54,20 +74,30 @@ h1{
 .painel{
     background-color: #0D2F2B;
 }
+textarea::placeholder{
+    padding: 20px;
+}
+
 
 @media (max-width: 768px) {
-    .login-card {
+    .panel{
       padding: 24px 28px;
     }
     .topnav {
       padding: 10px 16px;
     }
+    .navtext{
+        font-size: 1.2rem;
+    }
   }
 @media (max-width: 480px) {
-    .login-card {
+    .main-user{
+        padding: 20px 16px;
+    }
+    .panel {
       padding: 20px 16px;
     }
-    .info-user {
+    .navtext {
       font-size: 1.2rem;
     }
     .btn {
@@ -86,4 +116,3 @@ h1{
       display: none;
     }
   }
-
